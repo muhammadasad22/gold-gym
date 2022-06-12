@@ -22,16 +22,17 @@ const Navbar = () => {
           style={{
             width: "48px",
             height: "48px",
-            margin: "0 20px",
+            margin: "0 60px",
           }}
         />
       </Link>
       <Stack
         direction="row"
-        gap="40px"
-        fontFamily="Alegreya"
+        gap="50px"
+        fontFamily="sans-serif"
         fontSize="24px"
         alignItems="flex-end"
+        ml="55px"
       >
         <Link
           to="/"
